@@ -1,0 +1,256 @@
+{
+  "name": "art-cli",
+  "version": "0.2.0",
+  "status": "release",
+  "built_at": "2026-10-15T13:29:03.423078+00:00",
+  "files": {
+    "CHANGELOG.md": {
+      "sha256": "57b45c4d2f9565020a7588b9fa83723be791eda82398056e41787673994d1dbc",
+      "bytes": 1175
+    },
+    "CONTRIBUTING.md": {
+      "sha256": "f01c6dd6b8078cea54757d154f44501aa151c9ab1e9524d2151ace0f82ceb63f",
+      "bytes": 1405
+    },
+    "LICENSE": {
+      "sha256": "2b87d99efa8870b26cf9c71b5bf8dc42e4177041a6bf9026c68d9d4ca2c72c31",
+      "bytes": 1064
+    },
+    "NOTICE.md": {
+      "sha256": "f8623811b8ea15b1cc83c4a87178a448f894c91702cf2eebfc6e2a83ab6b9761",
+      "bytes": 1160
+    },
+    "README.de.md": {
+      "sha256": "5cb6f01be01f6609fe903cb1861f0737e5ed314ba6fbb26d870fa87e293bfc7d",
+      "bytes": 3196
+    },
+    "README.md": {
+      "sha256": "66519f9c3315aa821313949563e301ccf295eb5aa07ea378f5091c4f8e7ee434",
+      "bytes": 8226
+    },
+    "SECURITY.md": {
+      "sha256": "01918c1dffbefe4978ba2fedd34633013f3688111a1e332c1e09826fc888b53e",
+      "bytes": 1669
+    },
+    "START-HERE.md": {
+      "sha256": "d3cb2738703d269a7549a4c9835b23b5993ec6fa24944c95717ab3afd5672583",
+      "bytes": 3429
+    },
+    "__init__.py": {
+      "sha256": "274d1fb0c4595bdfe9eef6f423864e28bc4368639cbc67c1e5e9c09ffe8261c4",
+      "bytes": 4864
+    },
+    "art.py": {
+      "sha256": "fab7c4130c3b69730718e7832745cc0393d912f4f6074f311f3398e8ac5de900",
+      "bytes": 168
+    },
+    "art_cli/__init__.py": {
+      "sha256": "bc6189bcc48ad3959b35f48a41f3209fcef9eff1844aad94ab52e8c7728626d8",
+      "bytes": 77
+    },
+    "art_cli/__main__.py": {
+      "sha256": "6e7a6fb9549c9066dfc3dd2f4c208db45a882e395f8ea44f49f77818fa9aae35",
+      "bytes": 4211
+    },
+    "art_cli/api.py": {
+      "sha256": "6eac8189305952067d813a9cfd1df745331a715cc3d1c4e8e0da2f0de32a64fa",
+      "bytes": 22267
+    },
+    "art_cli/bindings.py": {
+      "sha256": "c97189824daadbb24a22ffce426d8daa081635b2ad35817c9df68eea1da6f5ee",
+      "bytes": 2018
+    },
+    "art_cli/commands.py": {
+      "sha256": "8dee7b034382af45c02256f3b2a3d24fbeed5425a5420334f19623547bbf48aa",
+      "bytes": 4387
+    },
+    "art_cli/config.py": {
+      "sha256": "c928dfed91f0b64377755c90522a43a94833e0ad7ab8f92ef45fde427248faa6",
+      "bytes": 7335
+    },
+    "art_cli/control.py": {
+      "sha256": "9549dca2ec69b1efb26d0d683a3ad2d285cedfab6662729008022b0dc5caf7db",
+      "bytes": 18464
+    },
+    "art_cli/control_profiles.json": {
+      "sha256": "3f64e825c868583cbda4b0ce0c9d1bf8f765a3c3f6a51cd6e391ef5558088204",
+      "bytes": 18693
+    },
+    "art_cli/dependencies.py": {
+      "sha256": "ddbf73d34dd99939f17380eeb0ecfd8ad42c353bb4d5c02d9539e28bed00f26e",
+      "bytes": 4913
+    },
+    "art_cli/native.py": {
+      "sha256": "a3eb68b1ad0d3e558f299eae1b926fbbe9c30a9e104ce65f2d8fa672bf0aca70",
+      "bytes": 3337
+    },
+    "art_cli/processes.py": {
+      "sha256": "1295e012c07dc3a8ea69ddcaa6599266a728e0fcb0e97e744c6140656535a3fa",
+      "bytes": 9970
+    },
+    "art_cli/rpc.py": {
+      "sha256": "50c5a304240ad296fd96fe5d86a43a08078a377297e5dde1efe4e56b5260074e",
+      "bytes": 14049
+    },
+    "art_cli/worker.py": {
+      "sha256": "b93a39c0cf25560a8c30cbd39ec0a91e4300d38021a36b53e8ae965a805e1a77",
+      "bytes": 6645
+    },
+    "bootstrap.py": {
+      "sha256": "c8a00333192a4bd3b2bb6c92235c75ab138e0dade45d37e86d61f500a563c756",
+      "bytes": 825
+    },
+    "docs/ACCEPTANCE.md": {
+      "sha256": "3e4ee455aa5ce1bd0c7774526b94f9ad92025f4513e1ff72b95e9f91e3caa888",
+      "bytes": 3472
+    },
+    "docs/ARCHITECTURE.md": {
+      "sha256": "0dee650544e4f68b690ae21a8e9054f27cd4573798e701b43b2b1113252b84ef",
+      "bytes": 5055
+    },
+    "docs/CLI.md": {
+      "sha256": "dde43b6ac16e1a8160f9ccccd63ac24db774b435c2bc14de4ebda140e6c7dc41",
+      "bytes": 10071
+    },
+    "docs/SETUP.md": {
+      "sha256": "0a5be26ef0da343fe48a10d565d183f2be992a5a5cc8217c16fc7027cc1ad2ae",
+      "bytes": 9747
+    },
+    "docs/assets/README.md": {
+      "sha256": "443f4c12bf616b685be257259ae44a7fca98a0f3fa6f3d845db523e57f80c692",
+      "bytes": 1084
+    },
+    "docs/assets/banner.png": {
+      "sha256": "23b670cc5a749f0d269aa18aad847c72f7d802e1671cb58a882e1e87e66d4ca2",
+      "bytes": 70974
+    },
+    "docs/assets/banner.svg": {
+      "sha256": "50b8d1217ec9a03246ed14dcf8b6cfddc5b654f1f3540375b7206ddf298e3961",
+      "bytes": 231102
+    },
+    "docs/assets/capabilities.png": {
+      "sha256": "f4fd87f5644b61081f1bbf9adaa153e4881e082aba7985270426b1f1c126445d",
+      "bytes": 80798
+    },
+    "docs/assets/capabilities.svg": {
+      "sha256": "7d2a1e63692443b749baf93861c2f74d98da444f45c4a3ee9bd3b08b268eb03a",
+      "bytes": 369448
+    },
+    "docs/assets/workflow.png": {
+      "sha256": "0501759aa9fb5581ddd1c3d2f6ce3e5f86ac717a0e11010c43cbcaee8791df7a",
+      "bytes": 70426
+    },
+    "docs/assets/workflow.svg": {
+      "sha256": "263ffc4f81cf8a007dd42f6a9dc05c71d5a62deb6fbaaa40caae26fab5bc8ee8",
+      "bytes": 274758
+    },
+    "docs/control.md": {
+      "sha256": "aece3a11f5473ed5b6b579de7a15ccfa19898b88027df1a76d2c832f579c35cc",
+      "bytes": 11954
+    },
+    "docs/release-verification.json": {
+      "sha256": "9942126ee706e639d82c5d13ebb6daf52d416358f9ce563cd3b7c551c42b8ada",
+      "bytes": 4721
+    },
+    "install.py": {
+      "sha256": "d38f6fb6b905d917f88a0ba3c138250d7ee017c72f7186787fc2a8b93677e864",
+      "bytes": 9439
+    },
+    "plugin.yaml": {
+      "sha256": "a578b508a5c675cf6dae0a8f0fff8e80490e6c3fa1d500517e2024c0e55c29b0",
+      "bytes": 300
+    },
+    "pyproject.toml": {
+      "sha256": "e6ba7392928eb0939640c2f2eaa8fd425ded6ce13a0a132d1421113ae369a894",
+      "bytes": 494
+    },
+    "scripts/build_package.py": {
+      "sha256": "3e588e77dac93a97e6e7c5a106195a44463b88e1cd37a8490bc5d4b5bdc4ca43",
+      "bytes": 3744
+    },
+    "scripts/run_portable_tests.py": {
+      "sha256": "0066a2a4d72bbe319a9b42c9e71a8dda7a3e700235ff005d298a6d66a659b01f",
+      "bytes": 1408
+    },
+    "scripts/smoke_test.py": {
+      "sha256": "76fe6fbd88e04e5eb36f652cdbe535c465439c55d72ec7fa36f3028d77fc7654",
+      "bytes": 4039
+    },
+    "setup_art.py": {
+      "sha256": "6f9cbbfc57942c88b8dea6724141a25f5fab908982d502463a7136c1e1553430",
+      "bytes": 6317
+    },
+    "tests/fake_native.py": {
+      "sha256": "edb1c616d90faa40ba750ad9145c0de7470355da8c8d9920cbb1ef6e3006449a",
+      "bytes": 1685
+    },
+    "tests/runtime_peer.py": {
+      "sha256": "ab94cb81f6c2499223fbb82336713a98da615354cba72db267ae8c7f438eb33c",
+      "bytes": 1743
+    },
+    "tests/test_cli_encoding.py": {
+      "sha256": "8b87ff125d4997193022200e5b7786528b5a08f12f0754de141b3fca7ebc4d10",
+      "bytes": 936
+    },
+    "tests/test_command_cache_review.py": {
+      "sha256": "296efa2002d248d634debfb038e048d6cc5afe73f116e09b7ce64802f7d5a5f1",
+      "bytes": 2018
+    },
+    "tests/test_control.py": {
+      "sha256": "dc0f6108d6d2dbfe1b90d4b069ae08cd8dc9c2cada50bd61108ff22b83dab501",
+      "bytes": 15209
+    },
+    "tests/test_control_cancellation.py": {
+      "sha256": "73ed4310e2ce8831a2055e0f6a3088b888ae663bdc949ed51e7753159ac7be70",
+      "bytes": 9376
+    },
+    "tests/test_engine_contract.py": {
+      "sha256": "5e2643dd38d8e1d9a3d8f34b37080c0977b3a0814f1c8f4feb3b49a050ea126c",
+      "bytes": 2380
+    },
+    "tests/test_install.py": {
+      "sha256": "f942cb954cbddf1d937d92862a01680398b4fe9c2f2fa1bfff1ae000fdf26602",
+      "bytes": 2375
+    },
+    "tests/test_installer_review.py": {
+      "sha256": "68709c8f1bc9f90c3a38834b65c04cc19f3d37c9ea81bd3ba42e3c988b5bdfd0",
+      "bytes": 5126
+    },
+    "tests/test_metadata_review.py": {
+      "sha256": "c1ac1def149967f0af25a1a076d8159bb8cccd9bb064b5cf5a8dea89b99be33f",
+      "bytes": 5173
+    },
+    "tests/test_native.py": {
+      "sha256": "4af5b780398d6a49e352ed8b1cc5107c5056004b081f537ed61bd6c6252dbe33",
+      "bytes": 3446
+    },
+    "tests/test_plugin_adapter.py": {
+      "sha256": "a8ff7902a2cdd02e97f49be0848721c4fee47f0bb3cf598b3ea6e631ce0e02fb",
+      "bytes": 6582
+    },
+    "tests/test_release_version.py": {
+      "sha256": "a2bab41a902235d54c00d16d4c3edd16e7620e79e76ea8eff049cbc58b6c86a1",
+      "bytes": 762
+    },
+    "tests/test_runtime_review.py": {
+      "sha256": "585f0d7e625045647d43cb533af4a41526bf5a5df107d346cfee6e809c8805ee",
+      "bytes": 11564
+    },
+    "tests/test_setup_art.py": {
+      "sha256": "fa7e640e5ef593c8703c86f3b157b90b63074964cc242fc7b714d17546a6228a",
+      "bytes": 7986
+    },
+    "tests/test_spawn_assignment.py": {
+      "sha256": "d72e5976006b4947c32542376f0ac417f19168f99c159bf90894e77cb7d0a8cd",
+      "bytes": 8551
+    },
+    "tests/test_transport.py": {
+      "sha256": "cb177eb23a5fc9fca0b046aa2cb3f15df2aeda435758dea1705365abc2756e1b",
+      "bytes": 4431
+    },
+    "tests/test_worker_ids.py": {
+      "sha256": "ce130a7f0e9a5d501f202422816a2d45a5d721bdd2faa774e2f7bb9952ca3867",
+      "bytes": 4096
+    }
+  }
+}

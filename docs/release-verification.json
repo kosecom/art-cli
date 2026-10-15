@@ -1,0 +1,139 @@
+{
+  "release_version": "0.2.0",
+  "verification_kind": "native clean-profile release-candidate acceptance",
+  "candidate_sha256": "65f83dc54eb819e2c41d7b521c0e3eaf8fc5ac465269345e9fc2f3d9b0730008",
+  "hosts": [
+    {
+      "platform": "windows",
+      "version": "0.2.0",
+      "package_sha256": "65f83dc54eb819e2c41d7b521c0e3eaf8fc5ac465269345e9fc2f3d9b0730008",
+      "clean_home": true,
+      "private_configuration_imported": false,
+      "actual_installed_hermes_entrypoints": 8,
+      "standard_path_cli_discovery": {
+        "photocraft": true,
+        "vectorcraft": true,
+        "filmcraft": true,
+        "lightcraft": true,
+        "pdfcraft": true,
+        "effectcraft": true,
+        "designcraft": true,
+        "wordcraft": true,
+        "deckcraft": true,
+        "gridcraft": true,
+        "cadcraft": true,
+        "soundcraft": true,
+        "figcraft": true
+      },
+      "artifact": {
+        "ok": true,
+        "platform": "windows",
+        "app": "vectorcraft",
+        "fresh_reopen_png_match": true,
+        "size": [
+          640,
+          320
+        ],
+        "files": [
+          {
+            "name": "smoke.vectorcraft",
+            "bytes": 27329,
+            "sha256": "76ae2da2fe69799a8422f1c4bb9ee4804437d65602103075c43591b2f62e6ac6"
+          },
+          {
+            "name": "smoke.svg",
+            "bytes": 445,
+            "sha256": "1858cda7af66aeb517286df32514e07351c782de1a7b6e951d8f36af9ef3be6a"
+          },
+          {
+            "name": "smoke.png",
+            "bytes": 2567,
+            "sha256": "a3e214f1aaf646149f6d3cec04039053bc8a0e28c488890c6e853b0cfab1ad0c"
+          },
+          {
+            "name": "smoke-reopened.png",
+            "bytes": 2567,
+            "sha256": "a3e214f1aaf646149f6d3cec04039053bc8a0e28c488890c6e853b0cfab1ad0c"
+          }
+        ]
+      },
+      "upgrade_backup_verified": true,
+      "uninstall_verified": true,
+      "live_profiles_modified": false,
+      "tests_run": 96,
+      "tests_skipped": 0,
+      "tests_passed": 96,
+      "ok": true
+    },
+    {
+      "platform": "mac",
+      "version": "0.2.0",
+      "package_sha256": "65f83dc54eb819e2c41d7b521c0e3eaf8fc5ac465269345e9fc2f3d9b0730008",
+      "clean_home": true,
+      "private_configuration_imported": false,
+      "actual_installed_hermes_entrypoints": 8,
+      "standard_path_cli_discovery": {
+        "photocraft": true,
+        "vectorcraft": true,
+        "filmcraft": true,
+        "lightcraft": true,
+        "pdfcraft": true,
+        "effectcraft": true,
+        "designcraft": true,
+        "wordcraft": true,
+        "deckcraft": true,
+        "gridcraft": true,
+        "cadcraft": true,
+        "soundcraft": true,
+        "figcraft": false
+      },
+      "artifact": {
+        "ok": true,
+        "platform": "mac",
+        "app": "vectorcraft",
+        "fresh_reopen_png_match": true,
+        "size": [
+          640,
+          320
+        ],
+        "files": [
+          {
+            "name": "smoke.vectorcraft",
+            "bytes": 27328,
+            "sha256": "a24ff5c3fbc1eef77bb4c286e687c91f378d0a2be9799df48599cbc8f334d77b"
+          },
+          {
+            "name": "smoke.svg",
+            "bytes": 445,
+            "sha256": "1858cda7af66aeb517286df32514e07351c782de1a7b6e951d8f36af9ef3be6a"
+          },
+          {
+            "name": "smoke.png",
+            "bytes": 2672,
+            "sha256": "ccc720005a4ac546f5900b284222daf165d3353754b9ee515eed320043f864bc"
+          },
+          {
+            "name": "smoke-reopened.png",
+            "bytes": 2672,
+            "sha256": "ccc720005a4ac546f5900b284222daf165d3353754b9ee515eed320043f864bc"
+          }
+        ]
+      },
+      "upgrade_backup_verified": true,
+      "uninstall_verified": true,
+      "live_profiles_modified": false,
+      "tests_run": 96,
+      "tests_skipped": 6,
+      "tests_passed": 90,
+      "ok": true
+    }
+  ],
+  "limitations": [
+    "Clean profiles on existing native hosts, not blank OS installs. No private live profile configuration copied.",
+    "Native CLIs were already installed. Discovery is 13 on Windows, 12 on macOS; FigCraft missing at standard searched Mac locations is explicitly reported.",
+    "Native artifact smoke uses VectorCraft; this run does not execute every creative operation in all applications.",
+    "Hermes activation was explicitly enabled in isolated test homes using the native configuration API; setup itself correctly reports activation as manual.",
+    "Public hosted CI uses synthetic peers and skips the Hermes adapter when the real runtime is absent.",
+    "Final release ZIP is retested separately; its hash and verification are attached as a release asset to avoid a self-referential embedded hash."
+  ]
+}

@@ -1,0 +1,13 @@
+name: art-cli
+version: 0.2.0
+description: One portable ArtCraft CLI and Hermes plugin with on-demand native tools, editor commands and GUI controls.
+author: kosecom
+provides_tools:
+  - art_catalog
+  - art_search
+  - art_describe
+  - art_execute
+  - art_batch
+  - art_guide
+  - art_native
+  - art_rpc

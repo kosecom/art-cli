@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hermes-art-cli"
+version = "0.2.0"
+description = "One on-demand ArtCraft CLI and native Hermes plugin for Windows and macOS"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "kosecom"}]
+dependencies = []
+
+[project.scripts]
+art = "art_cli.__main__:main"
+
+[tool.setuptools]
+packages = ["art_cli"]
+
+[tool.setuptools.package-data]
+art_cli = ["*.json"]
